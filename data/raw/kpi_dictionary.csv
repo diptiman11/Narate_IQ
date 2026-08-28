@@ -1,0 +1,6 @@
+kpi_name,definition,formula,primary_drivers,refresh_cadence,materiality_threshold,source,owner
+revenue,Total net sales value,SUM(revenue),"units, price, product mix, availability",daily,>5% WoW,sales.csv,finance
+units_sold,Total units sold,SUM(units),"demand, marketing, availability, seasonality",daily,>8% WoW,sales.csv,sales
+average_selling_price,Average realized unit price,SUM(revenue)/SUM(units),"list price, discounts, product mix",daily,>5% WoW,sales.csv,pricing
+conversion_rate,Marketing conversions per click,SUM(conversions)/SUM(clicks),"campaign, spend, channel, audience",daily/weekly,>5%,marketing.csv,marketing
+stockout_rate,Share of availability time lost to stockouts,SUM(stockout_hours)/SUM(available_hours),"supply, demand, replenishment",daily,>3%,inventory.csv,supply

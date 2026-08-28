@@ -1,0 +1,15 @@
+date,node_type,parent,node,rank,confidence_score,confidence,validation_score,status,recommendation,dimension,dimension_value,unit_change,unit_change_pct,revenue_change,revenue_change_pct,contribution_share_pct
+2026-06-30,hypothesis,revenue,Sales volume deterioration,1.0,0.66,medium,0.86,supported,"Investigate the sales-volume decline by region, product and channel. Prioritize high-volume products and regions with the largest unit losses.",,,,,,,
+2026-06-30,hypothesis,revenue,Inventory constraint,2.0,0.3,low,0.65,weakly_supported,Investigate inventory availability and replenishment. Prioritize products and warehouses with elevated stockout hours and declining stock.,,,,,,,
+2026-06-30,hypothesis,revenue,Marketing efficiency deterioration,3.0,0.3,low,0.65,weakly_supported,Review campaign and channel performance to identify the source of declining marketing conversion efficiency before increasing marketing spend.,,,,,,,
+2026-06-30,segment,Sales volume deterioration,channel:Retail,,,,,,,channel,Retail,-138.0,-3.586278586278586,-129339.45000000112,-1.4362620912914157,61.33
+2026-06-30,segment,Sales volume deterioration,channel:Marketplace,,,,,,,channel,Marketplace,-75.0,-3.104304635761589,-137372.05000000077,-2.410134860779414,33.33
+2026-06-30,segment,Sales volume deterioration,channel:Online,,,,,,,channel,Online,-12.0,-0.213637172868079,58810.78000000119,0.445951241035635,5.33
+2026-06-30,segment,Sales volume deterioration,product_id:P003,,,,,,,product_id,P003,-73.0,-17.59036144578313,-88783.62,-17.8633719029349,14.93
+2026-06-30,segment,Sales volume deterioration,product_id:P012,,,,,,,product_id,P012,-56.0,-13.79310344827586,-108397.65999999992,-14.73534163791071,11.45
+2026-06-30,segment,Sales volume deterioration,product_id:P004,,,,,,,product_id,P004,-53.0,-13.11881188118812,-41729.94,-13.56069271744584,10.84
+2026-06-30,segment,Sales volume deterioration,product_id:P030,,,,,,,product_id,P030,-46.0,-10.952380952380953,-30055.26000000001,-10.201864486196394,9.41
+2026-06-30,segment,Sales volume deterioration,product_id:P011,,,,,,,product_id,P011,-37.0,-9.296482412060302,-110778.89000000012,-8.620245868870361,7.57
+2026-06-30,segment,Sales volume deterioration,region:South,,,,,,,region,South,-111.0,-3.75,-103774.8200000003,-1.5014207805639723,39.5
+2026-06-30,segment,Sales volume deterioration,region:West,,,,,,,region,West,-105.0,-3.451676528599606,-189943.9699999997,-2.6737399315521926,37.37
+2026-06-30,segment,Sales volume deterioration,region:North,,,,,,,region,North,-65.0,-2.1775544388609718,-173947.31000000052,-2.432445551510728,23.13

@@ -1,0 +1,8 @@
+date,driver,driver_change_pct,model_importance_pct,direction,impact_rank
+2026-06-30,sales_units,-7.799767171129224,99.17176561182059,decrease,1
+2026-06-30,stockout_hours,15.789473684210531,0.7759288351405995,increase,2
+2026-06-30,marketing_clicks,18.580366982421694,0.05230555303879779,increase,3
+2026-06-30,marketing_spend,4.663045169865443,0.0,increase,4
+2026-06-30,marketing_conversions,8.81560896295921,0.0,increase,5
+2026-06-30,marketing_conversion_rate,-8.234717321215657,0.0,decrease,6
+2026-06-30,closing_stock,-5.235602094240843,0.0,decrease,7

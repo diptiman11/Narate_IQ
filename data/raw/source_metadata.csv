@@ -1,0 +1,6 @@
+source,description,grain,refresh_cadence,refresh_time,owner,data_quality_score,security_scope
+sales.csv,Sales transactions,transaction,daily,06:00,Finance,97%,region/product/channel
+marketing.csv,Campaign performance,campaign-day-region,daily,08:00,Marketing,91%,region/channel
+inventory.csv,Inventory and stockouts,product-region-day,daily,05:00,Supply Chain,94%,region/product/warehouse
+business_events.csv,Business context/events,event,as-needed,N/A,Business Operations,100%,event_type
+kpi_dictionary.csv,Governed KPI semantic contract,KPI,versioned,N/A,Data Governance,100%,role/domain

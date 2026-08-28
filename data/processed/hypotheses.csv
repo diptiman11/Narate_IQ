@@ -1,0 +1,4 @@
+date,hypothesis,base_confidence_score,validation_score,historical_reliability,confidence_score,confidence,status,revenue_change_pct,evidence,hypothesis_rank
+2026-06-30,Sales volume deterioration,0.6,0.86,0.3,0.66,medium,supported,-3.1239363614036098,sales units changed -7.80%; ML importance 99.17%,1
+2026-06-30,Inventory constraint,0.1,0.65,0.0,0.3,low,weakly_supported,-3.1239363614036098,stockout hours changed +15.79%; closing stock changed -5.24%,2
+2026-06-30,Marketing efficiency deterioration,0.1,0.65,0.0,0.3,low,weakly_supported,-3.1239363614036098,marketing conversion rate changed -8.23%,3

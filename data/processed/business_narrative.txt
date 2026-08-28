@@ -1,0 +1,18 @@
+Business Performance Summary — 2026-06-30
+
+Revenue declined by 3.12% week-over-week to $3,773,581.
+Units sold were 1,584.
+
+Leading explanation:
+Sales volume deterioration (medium confidence, score 0.66).
+Evidence: sales units changed -7.80%; ML importance 99.17%.
+Evidence validation score: 0.86.
+
+Competing explanations:
+- Inventory constraint: low confidence (score 0.30).
+- Marketing efficiency deterioration: low confidence (score 0.30).
+
+Recommended actions:
+- [HIGH] Investigate the sales-volume decline by region, product and channel. Prioritize high-volume products and regions with the largest unit losses.
+- [LOW] Investigate inventory availability and replenishment. Prioritize products and warehouses with elevated stockout hours and declining stock.
+- [LOW] Review campaign and channel performance to identify the source of declining marketing conversion efficiency before increasing marketing spend.

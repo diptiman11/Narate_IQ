@@ -1,0 +1,10 @@
+event_date,event_name,event_type,event_category,description,revenue_change_vs_prior_7d_pct,units_change_vs_prior_7d_pct
+2026-01-15,Marketing budget expansion,marketing,marketing,Marketing spend increased by 25%,-3.8824230516599973,-0.5533883697722984
+2026-02-10,Competitor promotion,external,competitive,Major competitor launched a discount campaign,-1.24985950752867,0.4790743921178766
+2026-02-20,Supply disruption,supply,inventory,Supplier disruption reduced replenishment,-0.08460016180512243,0.8866371120962635
+2026-03-01,Spring promotion,marketing,marketing,Company-wide promotional campaign launched,2.8546456204528385,8.794247787610615
+2026-03-18,Price increase,pricing,other,Average selling prices increased by approximately 12%,14.799793432459008,-4.539711191335742
+2026-04-05,Inventory stockout,supply,inventory,High-demand Electronics SKUs experienced stockouts,1.6322763262052633,0.8119079837618403
+2026-05-01,Marketing budget cut,marketing,marketing,Paid media spend reduced by approximately 30%,-5.4517076192595635,-2.847471127041022
+2026-05-20,New product launch,product,other,Six new products introduced,24.20770926347351,17.14071856287425
+2026-06-15,Summer promotion,marketing,marketing,Seasonal promotional campaign launched,-7.27395255578514,2.1957340025094103

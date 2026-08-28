@@ -1,0 +1,8 @@
+date,driver,driver_change_pct,ml_importance_pct,confidence_score,confidence,evidence
+2026-06-30,sales_units,-7.799767171129224,99.1717656118206,0.6,medium,"strong_ml,meaningful_change"
+2026-06-30,stockout_hours,15.789473684210533,0.7759288351405995,0.1,low,meaningful_change
+2026-06-30,marketing_clicks,18.58036698242169,0.0523055530387977,0.1,low,meaningful_change
+2026-06-30,marketing_spend,4.663045169865443,0.0,0.05,low,moderate_change
+2026-06-30,marketing_conversions,8.81560896295921,0.0,0.1,low,meaningful_change
+2026-06-30,marketing_conversion_rate,-8.234717321215657,0.0,0.1,low,meaningful_change
+2026-06-30,closing_stock,-5.235602094240843,0.0,0.1,low,meaningful_change

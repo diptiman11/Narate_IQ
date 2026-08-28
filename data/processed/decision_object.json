@@ -1,0 +1,174 @@
+{
+  "date": "2026-06-30",
+  "problem": "Revenue deterioration",
+  "kpi": {
+    "revenue": 3773581.27,
+    "revenue_change_pct": -3.1239363614036098,
+    "units_sold": 1584.0
+  },
+  "leading_hypothesis": {
+    "name": "Sales volume deterioration",
+    "rank": 1,
+    "confidence_score": 0.66,
+    "confidence": "medium",
+    "status": "supported"
+  },
+  "validation": {
+    "validation_score": 0.86,
+    "statistical_score": 0.8,
+    "event_context_score": 0.0,
+    "segment_evidence_score": 0.06,
+    "supporting_evidence": "sales_units changed -7.80%; ML importance 99.17%; largest region loss: South (111 units); largest product_id loss: P003 (73 units); largest channel loss: Retail (138 units)"
+  },
+  "top_segments": [
+    {
+      "dimension": "channel",
+      "value": "Retail",
+      "unit_change": -138.0,
+      "unit_change_pct": -3.586278586278586,
+      "revenue_change": -129339.45000000112,
+      "revenue_change_pct": -1.4362620912914157,
+      "contribution_share_pct": 61.33
+    },
+    {
+      "dimension": "region",
+      "value": "South",
+      "unit_change": -111.0,
+      "unit_change_pct": -3.75,
+      "revenue_change": -103774.8200000003,
+      "revenue_change_pct": -1.5014207805639723,
+      "contribution_share_pct": 39.5
+    },
+    {
+      "dimension": "region",
+      "value": "West",
+      "unit_change": -105.0,
+      "unit_change_pct": -3.451676528599606,
+      "revenue_change": -189943.9699999997,
+      "revenue_change_pct": -2.6737399315521926,
+      "contribution_share_pct": 37.37
+    },
+    {
+      "dimension": "channel",
+      "value": "Marketplace",
+      "unit_change": -75.0,
+      "unit_change_pct": -3.104304635761589,
+      "revenue_change": -137372.05000000077,
+      "revenue_change_pct": -2.410134860779414,
+      "contribution_share_pct": 33.33
+    },
+    {
+      "dimension": "product_id",
+      "value": "P003",
+      "unit_change": -73.0,
+      "unit_change_pct": -17.59036144578313,
+      "revenue_change": -88783.62,
+      "revenue_change_pct": -17.8633719029349,
+      "contribution_share_pct": 14.93
+    },
+    {
+      "dimension": "region",
+      "value": "North",
+      "unit_change": -65.0,
+      "unit_change_pct": -2.177554438860972,
+      "revenue_change": -173947.31000000052,
+      "revenue_change_pct": -2.432445551510728,
+      "contribution_share_pct": 23.13
+    },
+    {
+      "dimension": "product_id",
+      "value": "P012",
+      "unit_change": -56.0,
+      "unit_change_pct": -13.79310344827586,
+      "revenue_change": -108397.65999999992,
+      "revenue_change_pct": -14.73534163791071,
+      "contribution_share_pct": 11.45
+    },
+    {
+      "dimension": "product_id",
+      "value": "P004",
+      "unit_change": -53.0,
+      "unit_change_pct": -13.11881188118812,
+      "revenue_change": -41729.94,
+      "revenue_change_pct": -13.56069271744584,
+      "contribution_share_pct": 10.84
+    },
+    {
+      "dimension": "product_id",
+      "value": "P030",
+      "unit_change": -46.0,
+      "unit_change_pct": -10.952380952380953,
+      "revenue_change": -30055.26000000001,
+      "revenue_change_pct": -10.201864486196394,
+      "contribution_share_pct": 9.41
+    },
+    {
+      "dimension": "product_id",
+      "value": "P011",
+      "unit_change": -37.0,
+      "unit_change_pct": -9.296482412060302,
+      "revenue_change": -110778.89000000012,
+      "revenue_change_pct": -8.620245868870361,
+      "contribution_share_pct": 7.57
+    }
+  ],
+  "business_events": [
+    {
+      "event_date": "2026-06-15",
+      "event_name": "Summer promotion",
+      "event_type": "marketing",
+      "event_category": "marketing",
+      "description": "Seasonal promotional campaign launched"
+    },
+    {
+      "event_date": "2026-05-20",
+      "event_name": "New product launch",
+      "event_type": "product",
+      "event_category": "other",
+      "description": "Six new products introduced"
+    },
+    {
+      "event_date": "2026-05-01",
+      "event_name": "Marketing budget cut",
+      "event_type": "marketing",
+      "event_category": "marketing",
+      "description": "Paid media spend reduced by approximately 30%"
+    },
+    {
+      "event_date": "2026-04-05",
+      "event_name": "Inventory stockout",
+      "event_type": "supply",
+      "event_category": "inventory",
+      "description": "High-demand Electronics SKUs experienced stockouts"
+    },
+    {
+      "event_date": "2026-03-18",
+      "event_name": "Price increase",
+      "event_type": "pricing",
+      "event_category": "other",
+      "description": "Average selling prices increased by approximately 12%"
+    }
+  ],
+  "recommendation": {
+    "priority": "high",
+    "action": "Investigate the sales-volume decline by region, product and channel. Prioritize high-volume products and regions with the largest unit losses."
+  },
+  "experiment": {
+    "experiment_id": "2026-06-30-sales-volume-deterioration",
+    "status": "completed",
+    "target_metric": "sales_units",
+    "expected_direction": "increase",
+    "success_threshold_pct": 5.0,
+    "baseline_value": 1584.0,
+    "observed_value": 1663.0,
+    "measured_change_pct": 4.987373737373738,
+    "outcome": "partial"
+  },
+  "historical_learning": {
+    "attempts": 1,
+    "successes": 0,
+    "partials": 1,
+    "failures": 0,
+    "historical_reliability": 0.3
+  }
+}

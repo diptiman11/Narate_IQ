@@ -1,0 +1,4 @@
+experiment_id,date,hypothesis,confidence_score,outcome,measured_change_pct
+2026-06-30-sales-volume-deterioration,2026-06-30,Sales volume deterioration,0.66,partial,4.987373737373738
+2026-06-30-inventory-constraint,2026-06-30,Inventory constraint,0.3,failed,0.0
+2026-06-30-marketing-efficiency-deterioration,2026-06-30,Marketing efficiency deterioration,0.3,failed,0.0

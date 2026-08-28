@@ -1,0 +1,4 @@
+hypothesis,attempts,successes,partials,failures,success_rate,non_failure_rate,historical_reliability
+Sales volume deterioration,1,0,1,0,0.0,1.0,0.3
+Inventory constraint,1,0,0,1,0.0,0.0,0.0
+Marketing efficiency deterioration,1,0,0,1,0.0,0.0,0.0
